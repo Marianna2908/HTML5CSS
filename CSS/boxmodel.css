@@ -1,0 +1,37 @@
+body{
+    background: beige;
+}
+
+#eerstebox{
+    margin: 50px;
+    border: 10px solid red;
+    padding: 10px;
+    background: deeppink;
+}
+
+#eerstebox-a {
+    /*color:red;*/
+    /*color: #DCCD6D;
+    color: rgb(220, 205, 109);*/
+    color: rgba(220, 205, 109, 1);
+    /*    1 is de echte kleur die je toewijst, doorzichtigheid*/
+}
+#eerstebox-b{
+/*    korter schrijven van tweedebox, shorthandnotaties*/
+    /*margin: 50PX 25px 50px 25px; een even langere notitie*/
+    margin: 50px 25px; /* nog korter geschreven*/
+    padding: 10px 5px; /* wordt herzelvde zoals tweedebox, maar korte notatie, alleen als de waarden gelijk zijn*/
+    border: 5px dotted rgba(200,109,109,1);
+}
+#tweedebox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 5px dotted purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}

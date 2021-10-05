@@ -1,0 +1,20 @@
+*{ /*sterretje, kan ook vervangen worden door BODY, maar die kan dan alleen op body toegepast*/
+    box-sizing: border-box; /* inzetten en dan neemt die alles over in je volledig doc, HYPERBELANGRIJK*/
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif; /* di is een fallback voor de reeds gebruikte fonds in index*/
+}
+#box1, #box2{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#box2{
+    padding: 20px;
+    font-family: "Times New Roman";
+    color: red;
+
+}
